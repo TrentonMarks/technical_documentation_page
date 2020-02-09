@@ -2,3 +2,16 @@ body {
     background-color: rgb(53, 54, 58);
     color: white;
 }
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkgray;
+}
+
+a:active {
+    color: gray;
+}
