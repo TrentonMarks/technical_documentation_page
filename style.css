@@ -4,10 +4,11 @@ body {
     display: flex;
     flex-direction: row;
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 header {
-    border-right: 3px solid gray;
+    border-right: 3px solid rgb(160, 160, 160);
     position: fixed;
     left: 0;
     height: 100%;
@@ -26,7 +27,7 @@ nav {
 
 .nav-link-container {
     border-bottom: 1px solid black;
-    padding: 15px;
+    padding: 12px;
     padding-left: 25px;
 }
 
@@ -45,4 +46,11 @@ a:active {
 
 main {
     margin-left: 350px;
+    margin-right: 50px;
+}
+
+p, li {
+    color: rgb(65, 65, 65);
+    font-size: 0.95em;
+    margin-bottom: 12px;
 }
